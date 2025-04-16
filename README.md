@@ -1,10 +1,11 @@
 # Intelligent-construction-machinery
-## 1.Introduction
+## Project 1 End-to-end motion decisions for cranes
+### 1.1 Introduction
 Autonomous crane control faces challenges in dynamic disturbance handling and complex loading/unloading operation environments. This study proposes Residuals Long Short-Term Memory Transformer(RLSTM-Transformer), an end-to-end autonomous driving model to enhance the trajectory prediction capabilities of crane systems. The model pioneers a dual-branch deep learning network for jointly optimizing local and global features. The upper branch combines a computational neural network and a delayed residual long short-term memory network to extract local spatiotemporal features from semantic image sequences and enhance the feature relevance. The lower branch uses a ResNet-Transformer network to capture global spatial dependencies from depth image sequences and establish global dependencies. During training, RGB/RGB-depth sequences and control signals were input. In the prediction process, real-time images generated control signals. Validation was performed on simulation and physical platforms. The results demonstrated that the proposed model enables end-to-end motion control of crane systems under complex operating conditions and external disturbances.
 
 The code of this algorithm will be made public after publication in the journal
 
-## 2.Datasets
+### 1.2 Datasets
 You can get the crane dataset on Baidu Netdisk through the following link
 Link: https://pan.baidu.com/s/1AwNVi8YbgLVM46q2_20GlQ Extraction code: d29t
 
